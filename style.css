@@ -1,0 +1,65 @@
+html, body {
+    font-family: serif;
+}
+body {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.weather-wrapper {
+    text-align: center;
+    width: 250px;
+    padding: 10px;
+    height: 500px;
+    border:10px solid #474b4f;
+    border-top: 15px groove #86C232;
+    border-left: 15px groove #86C232;
+}
+.w-row {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+    margin: auto 0;
+}
+.weather-features {
+    padding-right: 30px;
+    margin: auto 0;
+}
+.weather-country {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.weather-city h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.weather-deegre p{
+    font-family: sans-serif;
+    font-size: 70px;   
+    justify-items: center;
+    padding-left: 50px;
+    margin: 10px 0;
+
+}
+.weather-description {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 10px
+}
+.weather-wind p{
+    font-family: sans-serif;
+    margin-top: 40px;
+    font-weight:500;
+}
+.weather-pressure {
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+.weather-humidity {
+    font-family: sans-serif;
+    margin-top: 40px;
+}
